@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+
+}
+
+.navlist{
+    display: flex; 
+     justify-content: space-between;
+   position: relative;
+}
+.navlist li{
+    font-size: 12px;
+display: inline-block;
+margin: 10px;
+}
+
+.navlist ul {
+   list-style: none;
+   color: navy;
+ display: flex;
+  }
+    .navlist img{
+    width: 40px;
+    height: 40px;
+  }
+  .navbtn button{
+    background-color: rgb(252, 252, 252);
+    border-radius: 20px;
+    color: navy;
+border-style: none;
+width: 60px;
+height: 30px;
+padding: 10px;
+display: flex;
+align-items: center;
+ justify-content:center;
+margin: 10px;
+font-size: 12px;
+}
+  .section1{
+    background-image: url(Untitled-1\ copy.jpg);
+    width: 100%;
+    background-size:cover;
+mask-repeat: no-repeat;    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .firsttitle h1{
+    font-size: 40px;
+    color: rgb(77, 77, 77);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firsttitle{
+    color: rgb(77, 77, 77);
+    font-family: Arial, Helvetica, sans-serif;
+text-align:left;
+position: absolute;
+align-items: center;
+top: 200px;
+left: 80px;
+}
+.firsttitle p{
+    font-size: 20px;
+}
+
+.section2{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.section2 h2{
+color: rgb(59, 59, 59);
+font-size: 20px;
+}
+
+.section2 p{
+  color: rgb(59, 59, 59);
+  font-size: 12px;
+  }
+
+
+
+.secondimg{
+  position: absolute;
+left: 15%;
+top: 5%;
+
+}
+.thirdimg{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 42%;
+  bottom: 5%;
+}
+
+.whychoose{
+  position: absolute;
+  left: 10%;
+}
+
+.fourthimg{
+  position: absolute;
+  right: 15%;
+  top: 90%;
+}
+
+.section3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.section3 h2{
+  color: rgb(59, 59, 59);
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .section3 p{
+    color: rgb(59, 59, 59);
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    }
+
+   
+    .section4{
+      background-image: url(lastbackgroundcopy.png);
+      width: 100%;
+      background-size:cover;
+  mask-repeat: no-repeat;    height: 100vh;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    .btns{
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      bottom: 100px;
+      left: 40px;
+    }
+    .btns button{
+            margin: 5px;
+      font-size: 8px;
+      border-radius: 10px;
+border-style: none;
+width: 80px;  
+    height: 30px;
+    align-items: center;
+    }
+    .icons{
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      bottom: 65px;
+      left: 40px;
+
+    }
+    .icons img{
+      margin: 5px;
+    }
+
+    .lastlist{
+      display: flex;
+      position: absolute;
+      justify-content:center;
+      align-items: center;
+      bottom: 10px;
+    }
+
+    .lastlist li{
+      margin: 5px;
+
+    }
+    .lastlist ul{
+            display: flex;
+color: aliceblue; 
+     list-style: none;
+     justify-content:center;
+
+    }
